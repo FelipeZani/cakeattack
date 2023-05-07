@@ -109,7 +109,7 @@ def main(x,y):
 	score.clear()
 	score.goto(-320,0)
 	score.color("white")
-	score.write("Dear Carla, \nYou finished the game but my love for you never ends!\nHappy birthday! I love you so much, you're my treasure\n33 years of pure cuteness :) \nForever yours,\nFelipe " ,align='left', font=('Arial', 20, 'normal'))
+	score.write("happy bday!" ,align='left', font=('Arial', 20, 'normal'))
 	
 		
 
