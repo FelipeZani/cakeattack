@@ -1,0 +1,1 @@
+pyinstaller main.py --onefile -w --add-data "imgs:imgs" --add-data "soundtrack:soundtrack"
