@@ -51,7 +51,7 @@ def check(count):
 	dx = headpos[0] - foodpos[0]
 	dy = headpos[1] - foodpos[1]
 	distance = math.sqrt(dx*dx + dy*dy)
-	if distance <= (150/4 + 50/2):
+	if distance <= (150/2 + 50/2):
 		channel1.play(sound)
 		count += 1
 		popup_food()
@@ -109,7 +109,7 @@ def main(x,y):
 	score.clear()
 	score.goto(-320,0)
 	score.color("white")
-	score.write("happy bday!" ,align='left', font=('Arial', 20, 'normal'))
+	score.write("Dear Carla, \nYou finished the game but my love for you never ends!\nHappy birthday! I love you so much, you're my treasure\n33 years of pure cuteness :) \nForever yours,\nFelipe " ,align='left', font=('Arial', 20, 'normal'))
 	
 		
 
